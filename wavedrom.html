@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="/Users/yulunwang/Documents/wavedrom/wavedrom.min.js"></script>
+  <script src="skins/default.js"></script>
+</head>
+<body>
+  <div id="diagram"></div>
+  <script type="WaveDrom">
+  {
+    "signal": [
+      { "name": "clk", "wave": "p.....|..." },
+      { "name": "data", "wave": "z.2..z2...z2z|=.x", "data": ["", "", "", "d", "e", "f", "g"] },
+      { "name": "wyl", "wave": "xxxxxz.xz...0101010101010101010z....." }
+    ]
+  }
+  </script>
+  <script>
+    WaveDrom.ProcessAll();
+  </script>
+</body>
+</html>
+
